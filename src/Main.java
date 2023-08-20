@@ -14,6 +14,18 @@ public class Main {
 
         System.out.println(dayOfWeek);
 
+        Set<String> dayOfWeekSet = new LinkedHashSet<>();
+
+        dayOfWeekSet.add("lunedi");
+        dayOfWeekSet.add("martedi");
+        dayOfWeekSet.add("mercoledi");
+        dayOfWeekSet.add("giovedi");
+        dayOfWeekSet.add("venerdi");
+        dayOfWeekSet.add("sabato");
+        dayOfWeekSet.add("domenica");
+
+        System.out.println(dayOfWeekSet);
+
         boolean isTheFirstSetEqualToTheSecondOne = dayOfWeek.equals(dayOfWeek);
         System.out.println(isTheFirstSetEqualToTheSecondOne);
     }
